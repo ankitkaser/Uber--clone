@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "onda",
+    "slug": "onda",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ankitkaser.onda"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "@rnmapbox/maps",
+        {
+          "RNMapboxMapsImpl": "mapbox",
+          "RNMapboxMapsDownloadToken": "sk.eyJ1IjoiYmluaXRrYXNlciIsImEiOiJjbGtjbWtlaW8wOTZ5M2V1OGx0dHN4b252In0.mtVm9_Kcs3mqvxs0JA2s7g"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "896da019-ff5e-4327-a6e8-c02cc54d0a82"
+      }
+    }
+  }
+}
